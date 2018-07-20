@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Base UI Demo</title>
+	<style>
+		label, input {
+			display: block;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Button Settings</h1>
+
+	<form action="submit.php" method="post" id="buttonSettings">
+		<label for="button_background_color">Background Color
+			<input type="text" name="button_background_color" data-element="button-style-one" data-css-property="background-color" data-css-value="blue">
+		</label>
+
+		<label for="button_text_color">Text Color
+			<input type="text" name="button_text_color" data-element="button-style-one" data-css-property="color" data-css-value="white">
+		</label>
+		
+		<!-- <label for="button_border_color">Border Color
+			<input type="text" name="button_border_color" data-element="button-style-one" data-css-property="border-color" data-css-value="blue">
+		</label> -->
+
+		<!-- <input type="text" name="button_hover_background_color" data-element="button-style-one" data-css-property="background-color" data-css-value="white" placeholder="Hover Background Color">
+		<input type="text" name="button_hover_text_color" data-element="button-style-one" data-css-property="background-color" data-css-value="blue" placeholder="Hover Text Color">
+		<input type="text" name="button_hover_border_color" data-element="button-style-one" data-css-property="background-color" data-css-value="" placeholder="Hover Border Color">
+ -->
+
+		<label for="button_font_size">Font Size
+			<input type="text" name="button_font_size" data-element="button-style-one" data-css-property="font-size" data-css-value="16px">
+		</label>
+
+		<label for="button_font_family">Font Family
+			<input type="text" name="button_font_family" data-element="button-style-one" data-css-property="font-family" data-css-value="georgia">
+		</label>
+
+		<label for="button_font_weight">Font Weight
+			<input type="text" name="button_font_weight" data-element="test" data-css-property="font-weight" data-css-value="400">
+		</label>
+
+		<label for="button_border_radius">Border Radius
+			<input type="text" name="button_border_radius" data-element="button-style-one" data-css-property="border-radius" data-css-value="3px">
+		</label>
+
+		<!-- <label for="button_border_width">Border Width
+			<input type="text" name="button_border_width" data-element="button-style-one" data-css-property="border-width" data-css-value="2px">
+		</label> -->
+
+<!-- 		<label for="button_vertical_padding">Vertical Padding
+			<input type="text" name="button_vertical_padding" data-element="button-style-one" data-css-property="padding-top, padding-bottom" data-css-value="10px">
+		</label> -->
+
+<!-- 		<label for="button_horizontal_padding">Horizontal Padding
+			<input type="text" name="button_horizontal_padding" data-element="button-style-one" data-css-property="padding-right, padding-left" data-css-value="20px">
+		</label> -->
+
+		<!-- <br><br><input type="submit" id="buttonSubmit" value="Submit"> -->
+	</form>
+	<br><br><br>
+
+	<a href="#" class="button-style-one test">Button</a>
+
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/updateCss_v2.js"></script>
+</html>
